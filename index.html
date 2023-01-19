@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Devs</title>
+</head>
+<body>
+    <div class="title">
+        <h1>CADASTRO DE DESENVOLVEDOR</h1>
+    </div>
+    <form id="registrationForm">
+        <div class="blockForStyle">
+            <div class="nameRegistration">
+                <label for="name" class="nameStyle">Nome para Cadastro: </label>
+                <br>
+                <input type="text" id="name" name="name">
+                <button id="addInfo">Pronto</button>
+            </div>
+            <div id="removeDevs">
+                <label for="removeDevsInput"> Digite um nome para remove-lo:</label>
+                <br>
+                <input type="text" name="removeDevs" id="removeDevsInput2" required>
+                <button id="removeDevsButton">Remover</button>
+            </div>
+        </div>
+    </form>
+    <section id="devRegistration">
+        <h1>Desenvolvedores Cadastrados</h1>
+        <h5 id="totalDevH5"></h5>
+    </section>
+</body>
+</html>
